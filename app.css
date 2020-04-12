@@ -1,0 +1,29 @@
+@import '~@nativescript/theme/css/core.css';
+@import '~@nativescript/theme/css/default.css';
+@import url('~/your-style.css');
+
+.btn {
+    font-size: 18;
+}
+
+.home-panel{
+    vertical-align: top;
+    font-size: 20;
+    margin: 0;
+}
+
+.description-label{
+    margin: 15;
+    font-family: Larsseit;
+    font-size: 45px;
+}
+
+.tippytop {
+    width: 100%;
+    height: 50px;
+}
+
+button {
+    margin: none;
+    text-align: left;
+}

@@ -1,0 +1,41 @@
+<Page title="About Me" loaded="pageLoaded"
+    xmlns="http://www.nativescript.org/tns.xsd">
+
+
+    <ScrollView>
+        <StackLayout class="home-panel">
+            <!--Add your page content here-->
+            <Label left="10" top="10" width="90" height="0"
+                backgroundColor="transparent" />
+            <Image
+                src="https://thumbs-prod.si-cdn.com/EXZEKoICe9HcGSg6UzK7g7s8dbw=/fit-in/1600x0/https://public-media.si-cdn.com/filer/3c/2a/3c2af135-c333-4262-a5d9-91d596494c1e/mars_surface.jpg"
+                margin="15" borderRadius="40" />
+            <Label textWrap="true" text="About Jonathan"
+                class="h2 description-label" color="red"
+                textDecoration="Underline" marginBottom="20" />
+
+            <Label textWrap="true"
+                text="My favorite noodles: Thick ones. Really thick. Kinda soft like gnocchi but not gnocchi. The bowl its served in has a lot to do with the taste. On some mental shit. Even a convincing imitation of wabi-sabi will add at least +10 taste. And I like suprises in my broth. Like 'shit an egg 3/4 of the way through? no way!'. Or maybe there's a bunch of beef at the bottom. Idk."
+                class="h2 description-label" color="red" marginBottom="20" />
+
+            <Label textWrap="true"
+                text="My favorite website is a list of other websites"
+                class="h2 description-label" color="red"
+                textDecoration="Underline" marginBottom="20" />
+
+            <Label textWrap="true" text="Here's a fun fact:"
+                class="h2 description-label" color="red"
+                textDecoration="Underline" marginBottom="20" />
+
+            <Label textWrap="true"
+                text="The longest commcercial flight in the world is from Singapore to Newark, at 8,325 nmi or around 19hrs of flight time."
+                class="h2 description-label" color="red" marginBottom="20" />
+            <Button text="site of choice" height='200px'
+                tap="{{ onButtonTap }}" class="h2 description-label"
+                color="red" textDecoration="Underline" marginBottom="20" />
+
+
+
+        </StackLayout>
+    </ScrollView>
+</Page>
